@@ -1,6 +1,6 @@
 package Homework_2;
 
-public class pet implements patPet{
+public class pet{
     protected String name;
     protected int age;
     protected double weight;

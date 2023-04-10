@@ -7,5 +7,8 @@ public class Programm {
         father.getWorking("engineer");
         cat cat = new cat("bars", 2, 5, 20);
         father.pat(cat);
+        chicken chichen = new chicken("Ko-ko", 1, 2, 30);
+        father.pat(chichen);
+        father.checkEggs(chichen);
     }
 }

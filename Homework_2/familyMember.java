@@ -21,9 +21,11 @@ public class familyMember {
         System.out.printf("\n%s %s; Son - Age: %d; Weigth: %.2f; Heigth: %.2f;",
                 name, family, age, weight, height);
    }
-
+   
     public void pat(pet pet){
         System.out.printf("\n- %s",pet.name);
         pet.voise();
    }
+
+   
 }
