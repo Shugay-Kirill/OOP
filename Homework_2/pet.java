@@ -1,5 +1,8 @@
 package Homework_2;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class pet{
     protected String name;
     protected int age;
@@ -16,5 +19,7 @@ public class pet{
     public void voise(){
         System.out.println("\n- !@#!@!@!@#$%!@");
     }
-    
+ 
+    // static <T extends animal<pet>,  {
+        
 }

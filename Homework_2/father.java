@@ -1,5 +1,6 @@
 package Homework_2;
-import Homework_2.chicken;
+// import Homework_2.chicken;
+// import Homework_2.pet;
 
 public class father extends familyMember{
     
@@ -23,7 +24,7 @@ public class father extends familyMember{
      * @param animal
      */
     public void checkEggs(chicken animal) {
-        System.out.printf("Количиство яиц у этой курицы %s = %d",animal.name, animal.carryEggs());
+        System.out.printf("Количиство яиц у этой курицы %s = %d\n",animal.name, animal.carryEggs());
     }
 
 }
